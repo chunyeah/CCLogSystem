@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		343C428E1A0236A700035411 /* CCLogSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 343C428D1A0236A700035411 /* CCLogSystem.m */; };
+		3467CA531A035F9100DA6C84 /* CCLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467CA3E1A035F9100DA6C84 /* CCLogViewController.m */; };
+		3467CA541A035F9100DA6C84 /* CCLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467CA3F1A035F9100DA6C84 /* CCLog.m */; };
+		3467CA551A035F9100DA6C84 /* CCLogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467CA401A035F9100DA6C84 /* CCLogController.m */; };
+		3467CA561A035F9100DA6C84 /* CCLogController+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467CA421A035F9100DA6C84 /* CCLogController+Utility.m */; };
+		3467CA571A035F9100DA6C84 /* CCLogReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467CA471A035F9100DA6C84 /* CCLogReviewViewController.m */; };
+		3467CA581A035F9100DA6C84 /* CCLogStringImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467CA4A1A035F9100DA6C84 /* CCLogStringImp.m */; };
+		3467CA591A035F9100DA6C84 /* CCLocationMake.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467CA4B1A035F9100DA6C84 /* CCLocationMake.m */; };
+		3467CA5A1A035F9100DA6C84 /* CCTeeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467CA4D1A035F9100DA6C84 /* CCTeeController.m */; };
+		3467CA5B1A035F9100DA6C84 /* CCSimpleFileOutputRedirectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467CA4E1A035F9100DA6C84 /* CCSimpleFileOutputRedirectionController.m */; };
+		3467CA5C1A035F9100DA6C84 /* NSObject+CCReverseComparison.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467CA511A035F9100DA6C84 /* NSObject+CCReverseComparison.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		348FAFCD1A02325000AA05C2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		343C428C1A0236A700035411 /* CCLogSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLogSystem.h; sourceTree = "<group>"; };
+		343C428D1A0236A700035411 /* CCLogSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLogSystem.m; sourceTree = "<group>"; };
+		3467CA3E1A035F9100DA6C84 /* CCLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLogViewController.m; sourceTree = "<group>"; };
+		3467CA3F1A035F9100DA6C84 /* CCLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLog.m; sourceTree = "<group>"; };
+		3467CA401A035F9100DA6C84 /* CCLogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLogController.m; sourceTree = "<group>"; };
+		3467CA411A035F9100DA6C84 /* CCLogController+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCLogController+Utility.h"; sourceTree = "<group>"; };
+		3467CA421A035F9100DA6C84 /* CCLogController+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCLogController+Utility.m"; sourceTree = "<group>"; };
+		3467CA431A035F9100DA6C84 /* CCLogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLogController.h; sourceTree = "<group>"; };
+		3467CA441A035F9100DA6C84 /* CCFileOutputRedirectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFileOutputRedirectionController.h; sourceTree = "<group>"; };
+		3467CA451A035F9100DA6C84 /* CCLogReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLogReviewViewController.h; sourceTree = "<group>"; };
+		3467CA461A035F9100DA6C84 /* CCLogStringImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLogStringImp.h; sourceTree = "<group>"; };
+		3467CA471A035F9100DA6C84 /* CCLogReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLogReviewViewController.m; sourceTree = "<group>"; };
+		3467CA481A035F9100DA6C84 /* CCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLog.h; sourceTree = "<group>"; };
+		3467CA491A035F9100DA6C84 /* CCLocationMake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLocationMake.h; sourceTree = "<group>"; };
+		3467CA4A1A035F9100DA6C84 /* CCLogStringImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLogStringImp.m; sourceTree = "<group>"; };
+		3467CA4B1A035F9100DA6C84 /* CCLocationMake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLocationMake.m; sourceTree = "<group>"; };
+		3467CA4C1A035F9100DA6C84 /* CCLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLogViewController.h; sourceTree = "<group>"; };
+		3467CA4D1A035F9100DA6C84 /* CCTeeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTeeController.m; sourceTree = "<group>"; };
+		3467CA4E1A035F9100DA6C84 /* CCSimpleFileOutputRedirectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSimpleFileOutputRedirectionController.m; sourceTree = "<group>"; };
+		3467CA4F1A035F9100DA6C84 /* CCSimpleFileOutputRedirectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSimpleFileOutputRedirectionController.h; sourceTree = "<group>"; };
+		3467CA501A035F9100DA6C84 /* CCTeeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTeeController.h; sourceTree = "<group>"; };
+		3467CA511A035F9100DA6C84 /* NSObject+CCReverseComparison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CCReverseComparison.m"; sourceTree = "<group>"; };
+		3467CA521A035F9100DA6C84 /* NSObject+CCReverseComparison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CCReverseComparison.h"; sourceTree = "<group>"; };
+		348FAFCF1A02325000AA05C2 /* libCCLogSystem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCCLogSystem.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		348FAFCC1A02325000AA05C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3467CA5D1A035F9C00DA6C84 /* CCLog */ = {
+			isa = PBXGroup;
+			children = (
+				3467CA431A035F9100DA6C84 /* CCLogController.h */,
+				3467CA401A035F9100DA6C84 /* CCLogController.m */,
+				3467CA411A035F9100DA6C84 /* CCLogController+Utility.h */,
+				3467CA421A035F9100DA6C84 /* CCLogController+Utility.m */,
+				3467CA481A035F9100DA6C84 /* CCLog.h */,
+				3467CA3F1A035F9100DA6C84 /* CCLog.m */,
+			);
+			name = CCLog;
+			sourceTree = "<group>";
+		};
+		3467CA5E1A035FB100DA6C84 /* DeveloperUI */ = {
+			isa = PBXGroup;
+			children = (
+				3467CA451A035F9100DA6C84 /* CCLogReviewViewController.h */,
+				3467CA471A035F9100DA6C84 /* CCLogReviewViewController.m */,
+				3467CA4C1A035F9100DA6C84 /* CCLogViewController.h */,
+				3467CA3E1A035F9100DA6C84 /* CCLogViewController.m */,
+			);
+			name = DeveloperUI;
+			sourceTree = "<group>";
+		};
+		3467CA5F1A035FE100DA6C84 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3467CA491A035F9100DA6C84 /* CCLocationMake.h */,
+				3467CA4B1A035F9100DA6C84 /* CCLocationMake.m */,
+				3467CA461A035F9100DA6C84 /* CCLogStringImp.h */,
+				3467CA4A1A035F9100DA6C84 /* CCLogStringImp.m */,
+				3467CA521A035F9100DA6C84 /* NSObject+CCReverseComparison.h */,
+				3467CA511A035F9100DA6C84 /* NSObject+CCReverseComparison.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		3467CA601A03600500DA6C84 /* FileOutput */ = {
+			isa = PBXGroup;
+			children = (
+				3467CA441A035F9100DA6C84 /* CCFileOutputRedirectionController.h */,
+				3467CA501A035F9100DA6C84 /* CCTeeController.h */,
+				3467CA4D1A035F9100DA6C84 /* CCTeeController.m */,
+				3467CA4F1A035F9100DA6C84 /* CCSimpleFileOutputRedirectionController.h */,
+				3467CA4E1A035F9100DA6C84 /* CCSimpleFileOutputRedirectionController.m */,
+			);
+			name = FileOutput;
+			sourceTree = "<group>";
+		};
+		348FAFC61A02325000AA05C2 = {
+			isa = PBXGroup;
+			children = (
+				348FAFD11A02325000AA05C2 /* CCLogSystem */,
+				348FAFD01A02325000AA05C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		348FAFD01A02325000AA05C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				348FAFCF1A02325000AA05C2 /* libCCLogSystem.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		348FAFD11A02325000AA05C2 /* CCLogSystem */ = {
+			isa = PBXGroup;
+			children = (
+				3467CA601A03600500DA6C84 /* FileOutput */,
+				3467CA5F1A035FE100DA6C84 /* Base */,
+				3467CA5E1A035FB100DA6C84 /* DeveloperUI */,
+				3467CA5D1A035F9C00DA6C84 /* CCLog */,
+				343C428C1A0236A700035411 /* CCLogSystem.h */,
+				343C428D1A0236A700035411 /* CCLogSystem.m */,
+			);
+			path = CCLogSystem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		348FAFCE1A02325000AA05C2 /* CCLogSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 348FAFE31A02325000AA05C2 /* Build configuration list for PBXNativeTarget "CCLogSystem" */;
+			buildPhases = (
+				348FAFCB1A02325000AA05C2 /* Sources */,
+				348FAFCC1A02325000AA05C2 /* Frameworks */,
+				348FAFCD1A02325000AA05C2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCLogSystem;
+			productName = CCLogSystem;
+			productReference = 348FAFCF1A02325000AA05C2 /* libCCLogSystem.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		348FAFC71A02325000AA05C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Chun Tips";
+				TargetAttributes = {
+					348FAFCE1A02325000AA05C2 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 348FAFCA1A02325000AA05C2 /* Build configuration list for PBXProject "CCLogSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 348FAFC61A02325000AA05C2;
+			productRefGroup = 348FAFD01A02325000AA05C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				348FAFCE1A02325000AA05C2 /* CCLogSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		348FAFCB1A02325000AA05C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3467CA591A035F9100DA6C84 /* CCLocationMake.m in Sources */,
+				3467CA5C1A035F9100DA6C84 /* NSObject+CCReverseComparison.m in Sources */,
+				3467CA551A035F9100DA6C84 /* CCLogController.m in Sources */,
+				3467CA541A035F9100DA6C84 /* CCLog.m in Sources */,
+				3467CA581A035F9100DA6C84 /* CCLogStringImp.m in Sources */,
+				3467CA561A035F9100DA6C84 /* CCLogController+Utility.m in Sources */,
+				3467CA5B1A035F9100DA6C84 /* CCSimpleFileOutputRedirectionController.m in Sources */,
+				343C428E1A0236A700035411 /* CCLogSystem.m in Sources */,
+				3467CA531A035F9100DA6C84 /* CCLogViewController.m in Sources */,
+				3467CA571A035F9100DA6C84 /* CCLogReviewViewController.m in Sources */,
+				3467CA5A1A035F9100DA6C84 /* CCTeeController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		348FAFE11A02325000AA05C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		348FAFE21A02325000AA05C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		348FAFE41A02325000AA05C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		348FAFE51A02325000AA05C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		348FAFCA1A02325000AA05C2 /* Build configuration list for PBXProject "CCLogSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348FAFE11A02325000AA05C2 /* Debug */,
+				348FAFE21A02325000AA05C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		348FAFE31A02325000AA05C2 /* Build configuration list for PBXNativeTarget "CCLogSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348FAFE41A02325000AA05C2 /* Debug */,
+				348FAFE51A02325000AA05C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 348FAFC71A02325000AA05C2 /* Project object */;
+}
