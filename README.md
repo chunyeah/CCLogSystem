@@ -3,6 +3,8 @@
 
 CCLogSystem provide an iOS Log System. We can use to replace *NSLog* in our project.And it also provide recording logs to the local file and review or email logs in our app.
 
+中文版本请戳: [Chun Tips](http://chun.tips/blog/2014/10/31/fen-xiang-ge-ren-xiang-mu-zhong-de-logxi-tong-cclogsystem/)
+
 ####Main Features
 
 * Very simplay API to use
