@@ -13,7 +13,11 @@ CCLogSystem provide an iOS Log System. We can use to replace *NSLog* in our proj
 * Provide the Developer UI to review and email the logs in the App
 
 ####Installation
-CCLogSytem is available as a [CocoaPod](http://cocoapods.org/?q=CCLogSystem).You can also simply copy all the source files located inside CCLogSystem/CCLogSystem/* into your iOS project.
+CCLogSytem is available as a [CocoaPod](http://cocoapods.org/?q=CCLogSystem).
+	
+	pod 'CCLogSystem'
+
+You can also simply copy all the source files located inside CCLogSystem/CCLogSystem/* into your iOS project.
 
 ####Example
 
