@@ -40,7 +40,7 @@ You can also simply copy all the source files located inside CCLogSystem/CCLogSy
     	// print: 2014-10-31 15:28:41.038 . <NSThread: 0x174063880>{number = 1, name = main} AppDelegate.m at 24 (-[AppDelegate application:willFinishLaunchingWithOptions:]): <UIApplication: 0x146e01cb0>
     }
     
-##### Use CC_LOG_VALUE macro to pring any value
+##### Use CC_LOG_VALUE macro to print any value
 
 	CC_LOG_VALUE(application);
     
@@ -83,6 +83,6 @@ You can also simply copy all the source files located inside CCLogSystem/CCLogSy
 #### Authors and License
 
 * All source code is licensed under the MIT License.
-* Copyright (c) 2014-2015, [Chun Ye](http://chun.tips)
+* Copyright (c) 2014-2015, [@Chun Ye](http://chun.tips)
 
 
