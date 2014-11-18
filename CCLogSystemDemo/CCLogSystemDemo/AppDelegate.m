@@ -53,6 +53,8 @@ typedef void (^TestBlock)();
     };
     CC_LOG_VALUE(testBlock);
     
+    NSObject *a = [[NSObject alloc] init];
+    CC_LOG_VALUE(a);
     return YES;
 }
 

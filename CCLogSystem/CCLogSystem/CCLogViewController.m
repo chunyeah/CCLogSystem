@@ -1,10 +1,14 @@
-//
-//  CCLogViewController.m
-//  CCLogSystem
-//
-//  Created by Chun Ye on 10/30/14.
-//  Copyright (c) 2014 Chun Tips. All rights reserved.
-//
+/*
+ *  CCLogSystem - A Log system for iOS.Support print, record and review logs:
+ *
+ *      https://github.com/yechunjun/CCLogSystem
+ *
+ *  This code is distributed under the terms and conditions of the MIT license.
+ *
+ *  Author:
+ *      Chun Ye <chunforios@gmail.com>
+ *
+ */
 
 #import "CCLogViewController.h"
 #import "CCLogController.h"
